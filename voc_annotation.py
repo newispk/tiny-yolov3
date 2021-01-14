@@ -3,7 +3,7 @@ from os import getcwd
 
 sets=[('2007', 'train'), ('2007', 'val'), ('2007', 'test')]
 
-classes = ["class1","class2","class3"]
+classes = ["qrcode"]
 
 
 def convert_annotation(year, image_id, list_file):
